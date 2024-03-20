@@ -23,7 +23,7 @@
                     <img src="../assets/github.webp" alt="github">
                 </a>
             </span><br><br>
-            <span class="ftr">© 2024 <router-link to="/">Event Ease</router-link> | All Rights Reserved | <router-link to="/listing">List Your Service</router-link></span>
+            <span class="ftr">© 2024 <router-link to="/">Event Ease</router-link> | All Rights Reserved | <router-link to="/register">List Your Service</router-link></span>
         </div>
     </section>
   </div>

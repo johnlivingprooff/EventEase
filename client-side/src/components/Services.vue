@@ -21,7 +21,11 @@
             event among our array of Catering Solutionists 
             tailored to your every culinary need.
           </p><br>
-          <span class="btn-white">Find a Caterer</span>
+          <span class="btn-white">
+            <router-link to="/services/caterers">
+              Find a Caterer
+            </router-link>
+          </span>
         </div>
         <div class="food"></div>
       </div>
@@ -34,7 +38,11 @@
             charismatic and skilled hosts, ensuring 
             seamless engagement throughout.
           </p><br>
-          <span class="btn-white">Find your MC</span>
+          <span class="btn-white">
+            <router-link to="/services/emcees">
+              Find an MC
+            </router-link>
+          </span>
         </div>
         <div class="ceremony"></div>
       </div>
@@ -46,7 +54,11 @@
             your gathering among our selection of dynamic 
             Music Bands, setting the tone for unforgettable moments.
           </p><br>
-          <span class="btn-white">Find your Sound</span>
+          <span class="btn-white">
+            <router-link to="/services/artists">
+              Find a Band
+            </router-link>
+          </span>
         </div>
         <div class="music"></div>
       </div>
@@ -58,7 +70,11 @@
             ensuring your event is equipped with the finest 
             audiovisual gear for a seamless experience.
           </p><br>
-          <span class="btn-white">Hire equipment</span>
+          <span class="btn-white">
+            <router-link to="/services/equipment">
+              Hire Equipment
+            </router-link>
+          </span>
         </div>
         <div class="equip"></div>
       </div>
@@ -68,7 +84,7 @@
 </template>
 
 <script lang="js">
-  import NavBar from './NavBar.vue';
+  import NavBar from './NavBar2.vue';
   import Contact from './Contact.vue';
   import axios from 'axios';
 
